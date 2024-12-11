@@ -70,9 +70,11 @@ worker.onmessage = async function (e) {
 };
 
 // Function to generate a random duck_id and send it to the worker
+const totalDucks = 21;
+
 window.executeRandom = () => {
-  // Generate a random integer between 0 and 9 (inclusive)
-  const randomNumber = Math.floor(Math.random() * 10); // 0-9
+  // Generate a random integer between 0 and 20
+  const randomNumber = Math.floor(Math.random() * totalDucks);
   const duckId = `${randomNumber}field`;
   worker.postMessage({ action: "execute", duckId });
 };
