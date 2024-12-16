@@ -5,7 +5,7 @@ import {
   AleoKeyProvider,
   AleoNetworkClient,
   NetworkRecordProvider,
-} from "@provablehq/sdk/testnet.js";
+} from "@provablehq/sdk";
 
 // Initialize thread pool for Aleo SDK
 await initThreadPool();

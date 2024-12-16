@@ -107,6 +107,16 @@ p {
     margin-bottom: 1.5em;
 }
 
+/* #duckImage {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  #duckImage.loaded {
+    opacity: 1;
+  }
+   */
+
 button {
     border: none;
     border-radius: 30px;
